@@ -1,0 +1,56 @@
+h1 {
+    @apply text-7xl;
+
+    @screen md {
+        @apply text-10xl;
+    }
+}
+
+h2 {
+    @apply text-5xl;
+
+    @screen md {
+        @apply text-9xl;
+    }
+}
+
+h3 {
+    @apply text-4xl;
+
+    @screen md {
+        @apply text-8xl;
+    }
+}
+
+h4{ 
+    @apply text-3xl;
+
+    @screen md {
+        @apply text-6xl;
+    }
+}
+
+h5 {
+    @apply text-xl;
+
+    @screen md {
+        @apply text-3xl;
+    }
+}
+
+/* Or create a class for this but this will allow richtext fields to have this sizing by default  */
+body {
+    @apply text-sm;
+
+    @screen sm {
+        @apply text-base;
+    }
+
+    @screen md {
+        @apply text-lg;
+    }
+
+    @screen lg {
+        @apply text-2xl;
+    }
+}
