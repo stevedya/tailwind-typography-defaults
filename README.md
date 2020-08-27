@@ -1,5 +1,6 @@
 # tailwind-typography-defaults
 A quick setup of how i do typography in tailwind
+**Made with love for thibaud**
 
 ## To Run
 `npm install`
