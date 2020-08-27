@@ -1,56 +1,56 @@
 h1 {
-    @apply text-7xl;
+    @apply text-40;
 
     @screen md {
-        @apply text-10xl;
+        @apply text-72;
     }
 }
 
 h2 {
-    @apply text-5xl;
+    @apply text-28;
 
     @screen md {
-        @apply text-9xl;
+        @apply text-60;
     }
 }
 
 h3 {
-    @apply text-4xl;
+    @apply text-26;
 
     @screen md {
-        @apply text-8xl;
+        @apply text-48;
     }
 }
 
 h4{ 
-    @apply text-3xl;
+    @apply text-24;
 
     @screen md {
-        @apply text-6xl;
+        @apply text-32;
     }
 }
 
 h5 {
-    @apply text-xl;
+    @apply text-20;
 
     @screen md {
-        @apply text-3xl;
+        @apply text-24;
     }
 }
 
 /* Or create a class for this but this will allow richtext fields to have this sizing by default  */
 body {
-    @apply text-sm;
+    @apply text-14;
 
     @screen sm {
-        @apply text-base;
+        @apply text-16;
     }
 
     @screen md {
-        @apply text-lg;
+        @apply text-18;
     }
 
     @screen lg {
-        @apply text-2xl;
+        @apply text-22;
     }
 }
